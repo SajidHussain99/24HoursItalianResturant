@@ -62,6 +62,15 @@
 /* // Small devices (landscape phones, less than 768px) */
 
 @media (max-width: 767.98px) {
+  .form-section,
+  .contact-info {
+    margin-bottom: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .contact-info-heading {
+    margin-bottom: 60px;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
