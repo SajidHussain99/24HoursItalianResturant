@@ -1,18 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* font-family: sneue-kabel; */
-    font-family: "Segoe UI", Regular;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: sneue-kabel; */
+  font-family: "Segoe UI", Regular;
 }
 
 :root {
-    --primary: #2B3140;
-    --secondary: #fff;
-    --mainBack: #b62d42;
-    --backBtns: #1b1b1b;
-  }
-  .row
-  {
-    -bs-gutter-x:0;
-  }
+  --primary: #2b3140;
+  --secondary: #fff;
+  --mainBack: #b62d42;
+  --backBtns: #1b1b1b;
+}
+.full-page {
+  max-width: 1280px;
+  align-self: center;
+  margin: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
