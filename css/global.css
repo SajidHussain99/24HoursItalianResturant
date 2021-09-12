@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sneue-kabel; */
+    font-family: "Segoe UI", Regular;
+}
+
+:root {
+    --primary: #2B3140;
+    --secondary: #fff;
+    --mainBack: #b62d42;
+    --backBtns: #1b1b1b;
+  }
+  .row
+  {
+    -bs-gutter-x:0;
+  }
