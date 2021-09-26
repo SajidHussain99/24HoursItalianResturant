@@ -19,7 +19,7 @@ function clock()
 
 
     setTimeout(clock, 1000);
-    if((h >=12 && m >= 30) && (h <= 23 && m <= 59))
+    if( (h == 12 && m >= 30) || (h < 23 && h > 12) ||(h == 23 && m <= 59) )
     {
         document.getElementById("clock").classList.add("resOpen");
         document.getElementById("clock").classList.remove("resClosed");
